@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 32px;
+    line-height: 1.5;
+}
+
+h2 {
+    line-height: 32px;
+    font-size: 24px;
+    text-align: start;
+    color: #3c4043;
+    font-weight: 500;
+    margin: 0;
+    padding: 64px 0 0 0;
+}
+
+p{
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+    color: rgba(0,0,0,0.87);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}

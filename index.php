@@ -62,28 +62,39 @@ $faq = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google faq</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <header></header>
+    <main>
+    <div class="container">
+    
     <?php
-    foreach ($faq as $text) {
-    ?>
-        <h2> <?php echo $text["question"];  ?></h2>
-
-        <?php
-        foreach ($text["answers"] as $risposte) {
+        foreach ($faq as $text) {
         ?>
-            <p><?php echo $risposte;  ?></p>
+            <h2> <?php echo $text["question"];  ?></h2>
+
+            <?php
+            foreach ($text["answers"] as $risposte) {
+            ?>
+                <p><?php echo $risposte;  ?></p>
+            <?php
+            }
+            ?>
+
         <?php
         }
         ?>
+    
+    </div>
 
-    <?php
 
-    }
+    </main>
 
-    ?>
+    <footer></footer>
 
 </body>
 
