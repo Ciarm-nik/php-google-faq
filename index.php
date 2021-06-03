@@ -68,7 +68,26 @@ $faq = [
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <div class="header-top">
+            <div class="left">
+                <div id="logo">
+                    <img src="img/google_logo_redesign_2015_newest1.jpg" alt="">
+                    <span class="privacy">Privacy e termini</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="header-bottom">
+            <ul>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a class="active" href="#">Domande frequenti</a></li>
+            </ul>
+        </div>
+    </header>
     <main>
         <div class="container">
 
@@ -94,7 +113,26 @@ $faq = [
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Tutto su Google</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <i class="fas fa-comment-alt"></i>
+                <select name="languages">
+                    <option value="it">Italiano</option>
+                    <option value="en">English</option>
+                    <option value="es">Espanol</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
